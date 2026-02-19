@@ -1,12 +1,12 @@
 name: Node.js CI
 
-# This triggers the workflow on any push to main (which includes merges) 
-# and whenever a pull request is opened or updated targeting main.
+# This triggers the workflow on any push to master (which includes merges) 
+# and whenever a pull request is opened or updated targeting master.
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
   build-and-test:
